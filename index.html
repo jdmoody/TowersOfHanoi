@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="game">
+      <div class="tower tower-0">
+
+      </div>
+      <div class="tower tower-1">
+
+      </div>
+      <div class="tower tower-2">
+
+      </div>
+    </div>
+    <div id="info"></div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="./hanoi.js"></script>
+    <script src="./ui.js"></script>
+    <script>
+      var hanoi = new Hanoi.UI();
+      hanoi.renderTowers();
+    </script>
+  </body>
+</html>
